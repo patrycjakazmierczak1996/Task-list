@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.section {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.section__header {
+    margin: 0;
+    padding: 10px;
+    border-bottom: 2px solid rgba(211, 211, 211, 0.562);
+}
