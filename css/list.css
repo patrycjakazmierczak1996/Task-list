@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.list {
+    margin: 0;
+    padding: 40px 20px 10px 20px;
+}
+
+
+.list__item {
+    border-bottom: 2px solid rgba(211, 211, 211, 0.562);
+    padding: 10px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 30px 1fr 30px;
+    justify-content: center;
+}
+
+.list__paragraph {
+    word-break: break-all;
+    flex-basis: 100%;
+}
+
+.list__paragraph--done {
+    text-decoration: line-through;
+}
+
+.list__button {
+    border: none;
+    color: white;
+    height: 25px;
+    max-width: 25px;
+}
+
+.list__button--done {
+    background: green;
+    grid-column: 1;
+}
+
+.list__button--remove {
+    background: crimson;
+    grid-column: 3;
+}
