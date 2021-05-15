@@ -10,8 +10,11 @@ I made this application to practice javascript. I am learning more and more to c
 ## Technologies:
 
 -HTML
--CSS(flex, grid)
+
+-CSS
+
 -BEM
+
 -JavaScript
 
 ## Use aplication:
