@@ -1,7 +1,7 @@
 # Patrycja Kaźmierczak- Task list
 
 ## Demo:
-https://github.com/patrycjakazmierczak1996/task-list.git
+https://patrycjakazmierczak1996.github.io/task-list/
 
 ## Description:
 
