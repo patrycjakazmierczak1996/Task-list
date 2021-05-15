@@ -10,12 +10,13 @@ html {
     background: rgba(211, 211, 211, 0.562);
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
-    max-width: 900px;
-    padding: 10px;
-    font-size: 15px;
+    max-width: 850px;
+    padding: 15px;
+    font-size: 18px;
 }
 
 .body__header {
     margin: 10px;
     padding-bottom: 10px;
 }
+
