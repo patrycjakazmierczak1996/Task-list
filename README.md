@@ -1,11 +1,9 @@
 # Patrycja Kaźmierczak- Task list
 
 ## Demo:
-<<<<<<< HEAD
-https://github.com/patrycjakazmierczak1996/task-list.git
-=======
+
 https://patrycjakazmierczak1996.github.io/task-list/
->>>>>>> a0cf9fa65f345032d7551a630c9d39c90652bff1
+
 
 ## Description:
 
@@ -14,13 +12,9 @@ I made this application to practice javascript. I am learning more and more to c
 ## Technologies:
 
 -HTML
-<<<<<<< HEAD
--CSS 
-=======
 
 -CSS
 
->>>>>>> a0cf9fa65f345032d7551a630c9d39c90652bff1
 -BEM
 
 -JavaScript
