@@ -11,7 +11,6 @@ html {
     padding: 40px 20px 10px 20px;
 }
 
-
 .list__item {
     border-bottom: 2px solid rgba(211, 211, 211, 0.562);
     padding: 10px;
@@ -19,6 +18,10 @@ html {
     grid-gap: 20px;
     grid-template-columns: 30px 1fr 30px;
     justify-content: center;
+}
+
+.list__item--hide {
+    display: none;
 }
 
 .list__paragraph {
@@ -35,14 +38,17 @@ html {
     color: white;
     height: 25px;
     max-width: 25px;
+    flex-shrink: 100%;
 }
 
 .list__button--done {
     background: green;
     grid-column: 1;
+    font-size: smaller;
 }
 
 .list__button--remove {
     background: crimson;
     grid-column: 3;
+    font-size: smaller;
 }

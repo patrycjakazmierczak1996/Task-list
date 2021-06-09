@@ -13,8 +13,8 @@ html {
 }
 
 .section__button {
-    color: white;
-    background-color: rgb(3, 116, 116);
+    color: rgb(19, 125, 133);
+    background-color: rgb(251, 255, 255);
     padding: 10px;
     margin: 20px;
     border: none;
@@ -23,15 +23,20 @@ html {
     text-align: center;
 }
 
+.section__button:disabled {
+    color: rgb(19, 125, 133);
+    cursor: auto;
+    transform: none;
+    background-color: rbg(3, 116, 166);
+}
+
 .section__button:hover {
     transform: scale(1.2) translateX(10px);
-    background-color: hsl(180, 89%, 40%);
 }
 
 .section__header {
     margin: 0;
     padding: 10px;
-    border-bottom: 2px solid rgba(145, 158, 153, 0.562);
 }
 
 .section__layout {
@@ -40,6 +45,7 @@ html {
     padding: 10px;
     grid-gap: 10px;
     background-color: white;
+    border-bottom: 2px solid rgba(145, 158, 153, 0.562);
 }
 
 .section__layoutButtons {

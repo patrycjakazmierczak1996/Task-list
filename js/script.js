@@ -93,7 +93,7 @@
     const renderTasks = () => {
         const tasksTransformToHTML = tasks
             .map(task => `
-             <li class="list__item${task.done && hideDoneTask ? "list__item--hide" : ""}">
+             <li class="list__item${task.done && hideDoneTask ? " list__item--hide" : ""}">
                <button class="list__button list__button--done js-done">
                   ${task.done ? "&#10004;" : ""}
                </button>
@@ -116,25 +116,18 @@
         if (tasks.length) {
             sectionButtons = `
               <button class="section__button js-buttonHideDoneTasks">
-                ${hideDoneTask
-                    ? "Pokaż"
-                    : "Ukryj"} ukończone </button>
+                ${hideDoneTask ? "Pokaż" : "Ukryj"} ukończone </button>
               <button class="section__button js-buttonFinishAllTasks"
-                ${tasks.every((task => task.done))
-                    ? "disabled"
-                    : ""}> Ukończ wszystkie </button>
+                ${tasks.every((task => task.done)) ? "disabled" : ""}> Ukończ wszystkie </button>
             `;
         };
         document.querySelector(".js-sectionButton").innerHTML = sectionButtons;
     };
 
 
-
-
     const render = () => {
         renderTasks();
         renderButtons();
-
         bindRemoveEvent();
         bindToggleDoneEvent();
         bindHideTasksEvent();

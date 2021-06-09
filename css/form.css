@@ -6,12 +6,16 @@ html {
     box-sizing: inherit;
 }
 
+@media (max-width: 750px) {}
+
+
 .form {
     margin: 15px 10px;
     display: flex;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    grid-template-columns: 1fr;
 }
 
 .form__inputButton {
