@@ -12,9 +12,38 @@ html {
     padding: 10px 0;
 }
 
+.section__button {
+    color: white;
+    background-color: rgb(3, 116, 116);
+    padding: 10px;
+    margin: 20px;
+    border: none;
+    transition: 1.3s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.section__button:hover {
+    transform: scale(1.2) translateX(10px);
+    background-color: hsl(180, 89%, 40%);
+}
+
 .section__header {
     margin: 0;
     padding: 10px;
     border-bottom: 2px solid rgba(145, 158, 153, 0.562);
-    
+}
+
+.section__layout {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 10px;
+    grid-gap: 10px;
+    background-color: white;
+}
+
+.section__layoutButtons {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
 }

@@ -26,18 +26,23 @@
 <body class="body">
     <h1 class="body__header">Lista zadań</h1>
     <section class="section">
-        <h2 class="section__header">Dodaj nowe zadanie</h2>
+        <div class="section__layout">
+        <h2 class="section__header">Dodaj nowe zadanie</h2></div>
         <form class="form js-form">
             <input class="form__input js-newTask" placeholder="Co jest do zrobienia?">
             <button class="form__inputButton">Dodaj zadanie</button>
         </form>
     </section>
+    
     <section class="section">
-        <h2 class="section__header">Lista zadań</h2>
-        <ul class="list js-tasks"></ul>
+        <div class="section__layout">
+            <h2 class="section__header">Lista zadań</h2>
+            <div class="section__layoutButtons js-sectionButton"></div>
+        </div>
+        <div class="section__body">
+            <ul class="list js-tasks "></ul>
+        </div>
     </section>
-
-
 </body>
 
 </html>
